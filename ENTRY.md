@@ -18,3 +18,5 @@
 3. It feels true about people in general — DIY overconfidence is universal human behavior.
 4. It sounds like a real printed label in wording and rhythm; the comedy comes from the form it imitates.
 5. It stays inside 160 characters (129), uses the whole line with no filler, no second idea, and no repeated joke.
+
+**Entrypoint:** `main.py` defines the winning line as a constant, asserts its length (1-160 chars, single line), writes it to `/output/entry.txt` (creating the directory if needed), and prints it.
